@@ -1,0 +1,338 @@
+{
+  "query": "data scientist machine learning AI ML startup US",
+  "search_date": "2026-01-26",
+  "total_count": 15,
+  "categories": ["data_analytics", "ab_experimentation", "causal_inference", "data_science", "product_management"],
+  "jobs": [
+    {
+      "id": "job001",
+      "title": "Senior Data Scientist",
+      "company": {
+        "name": "DataForge AI",
+        "is_startup": true,
+        "funding_stage": "Series B",
+        "industry": "AI/ML Platform"
+      },
+      "location": "San Francisco, CA",
+      "is_remote": true,
+      "salary": {
+        "min": 180000,
+        "max": 220000,
+        "currency": "USD"
+      },
+      "categories": ["Data Science"],
+      "description": "Join our fast-growing AI startup to build ML models for enterprise clients. Experience with Python, TensorFlow, and causal inference required.",
+      "url": "https://example.com/jobs/dataforge-senior-ds",
+      "posted_date": "2026-01-24",
+      "relevance_score": 92.5
+    },
+    {
+      "id": "job002",
+      "title": "Machine Learning Engineer",
+      "company": {
+        "name": "NeuralPath",
+        "is_startup": true,
+        "funding_stage": "Series A",
+        "industry": "Healthcare AI"
+      },
+      "location": "Boston, MA",
+      "is_remote": true,
+      "salary": {
+        "min": 160000,
+        "max": 200000,
+        "currency": "USD"
+      },
+      "categories": ["Data Science"],
+      "description": "Build ML pipelines for healthcare diagnostics. Strong Python, PyTorch, and MLOps experience needed.",
+      "url": "https://example.com/jobs/neuralpath-mle",
+      "posted_date": "2026-01-23",
+      "relevance_score": 90.0
+    },
+    {
+      "id": "job003",
+      "title": "Experimentation Data Scientist",
+      "company": {
+        "name": "GrowthLabs",
+        "is_startup": true,
+        "funding_stage": "Series B",
+        "industry": "MarTech"
+      },
+      "location": "New York, NY",
+      "is_remote": false,
+      "salary": {
+        "min": 150000,
+        "max": 185000,
+        "currency": "USD"
+      },
+      "categories": ["A/B Experimentation", "Data Science"],
+      "description": "Lead A/B testing and experimentation platform. Experience with causal inference, statistical modeling, and experiment design.",
+      "url": "https://example.com/jobs/growthlabs-exp-ds",
+      "posted_date": "2026-01-22",
+      "relevance_score": 88.5
+    },
+    {
+      "id": "job004",
+      "title": "Causal Inference Scientist",
+      "company": {
+        "name": "EconML Labs",
+        "is_startup": true,
+        "funding_stage": "Seed",
+        "industry": "FinTech"
+      },
+      "location": "Remote, US",
+      "is_remote": true,
+      "salary": {
+        "min": 170000,
+        "max": 210000,
+        "currency": "USD"
+      },
+      "categories": ["Causal Inference", "Data Science"],
+      "description": "Apply causal ML methods to financial products. PhD in economics, statistics, or related field preferred.",
+      "url": "https://example.com/jobs/econml-causal",
+      "posted_date": "2026-01-25",
+      "relevance_score": 87.0
+    },
+    {
+      "id": "job005",
+      "title": "Data Analyst - Growth",
+      "company": {
+        "name": "Scaleup.io",
+        "is_startup": true,
+        "funding_stage": "Series A",
+        "industry": "SaaS"
+      },
+      "location": "Austin, TX",
+      "is_remote": true,
+      "salary": {
+        "min": 95000,
+        "max": 130000,
+        "currency": "USD"
+      },
+      "categories": ["Data Analytics"],
+      "description": "Analyze user behavior and drive growth metrics. SQL, Python, and Tableau experience required.",
+      "url": "https://example.com/jobs/scaleup-analyst",
+      "posted_date": "2026-01-20",
+      "relevance_score": 82.0
+    },
+    {
+      "id": "job006",
+      "title": "AI Product Manager",
+      "company": {
+        "name": "MLOps.ai",
+        "is_startup": true,
+        "funding_stage": "Series B",
+        "industry": "Developer Tools"
+      },
+      "location": "Seattle, WA",
+      "is_remote": true,
+      "salary": {
+        "min": 165000,
+        "max": 195000,
+        "currency": "USD"
+      },
+      "categories": ["AI/ML Product Management"],
+      "description": "Lead product strategy for ML platform. Technical background in ML/AI required.",
+      "url": "https://example.com/jobs/mlops-pm",
+      "posted_date": "2026-01-21",
+      "relevance_score": 85.5
+    },
+    {
+      "id": "job007",
+      "title": "Applied Scientist - NLP",
+      "company": {
+        "name": "LangTech AI",
+        "is_startup": true,
+        "funding_stage": "Series A",
+        "industry": "NLP/LLM"
+      },
+      "location": "San Francisco, CA",
+      "is_remote": false,
+      "salary": {
+        "min": 190000,
+        "max": 250000,
+        "currency": "USD"
+      },
+      "categories": ["Data Science", "Causal Inference"],
+      "description": "Build next-gen NLP models. Experience with transformers, LLMs, and production ML systems.",
+      "url": "https://example.com/jobs/langtech-scientist",
+      "posted_date": "2026-01-24",
+      "relevance_score": 91.0
+    },
+    {
+      "id": "job008",
+      "title": "Senior Analytics Engineer",
+      "company": {
+        "name": "DataStack",
+        "is_startup": true,
+        "funding_stage": "Series B",
+        "industry": "Data Infrastructure"
+      },
+      "location": "Denver, CO",
+      "is_remote": true,
+      "salary": {
+        "min": 140000,
+        "max": 175000,
+        "currency": "USD"
+      },
+      "categories": ["Data Analytics"],
+      "description": "Build analytics infrastructure using dbt, Snowflake, and modern data stack.",
+      "url": "https://example.com/jobs/datastack-analytics",
+      "posted_date": "2026-01-19",
+      "relevance_score": 79.5
+    },
+    {
+      "id": "job009",
+      "title": "A/B Testing Lead",
+      "company": {
+        "name": "OptimizeHQ",
+        "is_startup": true,
+        "funding_stage": "Series A",
+        "industry": "E-commerce"
+      },
+      "location": "Los Angeles, CA",
+      "is_remote": true,
+      "salary": {
+        "min": 155000,
+        "max": 190000,
+        "currency": "USD"
+      },
+      "categories": ["A/B Experimentation"],
+      "description": "Lead experimentation strategy. Deep expertise in statistical testing and experiment platforms.",
+      "url": "https://example.com/jobs/optimizehq-ab",
+      "posted_date": "2026-01-23",
+      "relevance_score": 86.0
+    },
+    {
+      "id": "job010",
+      "title": "Data Science Manager",
+      "company": {
+        "name": "Insight Dynamics",
+        "is_startup": true,
+        "funding_stage": "Series C",
+        "industry": "Business Intelligence"
+      },
+      "location": "Chicago, IL",
+      "is_remote": false,
+      "salary": {
+        "min": 185000,
+        "max": 230000,
+        "currency": "USD"
+      },
+      "categories": ["Data Science"],
+      "description": "Lead a team of data scientists. Build ML solutions for enterprise customers.",
+      "url": "https://example.com/jobs/insight-ds-manager",
+      "posted_date": "2026-01-22",
+      "relevance_score": 84.0
+    },
+    {
+      "id": "job011",
+      "title": "Product Data Scientist",
+      "company": {
+        "name": "FeatureFlow",
+        "is_startup": true,
+        "funding_stage": "Series A",
+        "industry": "Product Analytics"
+      },
+      "location": "Remote, US",
+      "is_remote": true,
+      "salary": {
+        "min": 145000,
+        "max": 180000,
+        "currency": "USD"
+      },
+      "categories": ["Data Science", "A/B Experimentation"],
+      "description": "Drive product decisions with data. A/B testing, funnel analysis, and ML modeling.",
+      "url": "https://example.com/jobs/featureflow-product-ds",
+      "posted_date": "2026-01-25",
+      "relevance_score": 83.5
+    },
+    {
+      "id": "job012",
+      "title": "Quantitative Researcher",
+      "company": {
+        "name": "AlphaML Capital",
+        "is_startup": true,
+        "funding_stage": "Series B",
+        "industry": "FinTech"
+      },
+      "location": "New York, NY",
+      "is_remote": false,
+      "salary": {
+        "min": 200000,
+        "max": 300000,
+        "currency": "USD"
+      },
+      "categories": ["Causal Inference", "Data Science"],
+      "description": "Build quantitative trading models. Strong background in statistics and causal inference.",
+      "url": "https://example.com/jobs/alphaml-quant",
+      "posted_date": "2026-01-24",
+      "relevance_score": 88.0
+    },
+    {
+      "id": "job013",
+      "title": "ML Platform Product Manager",
+      "company": {
+        "name": "ModelServe",
+        "is_startup": true,
+        "funding_stage": "Seed",
+        "industry": "MLOps"
+      },
+      "location": "San Francisco, CA",
+      "is_remote": true,
+      "salary": {
+        "min": 150000,
+        "max": 185000,
+        "currency": "USD"
+      },
+      "categories": ["AI/ML Product Management"],
+      "description": "Define product roadmap for ML serving platform. Experience with ML infrastructure required.",
+      "url": "https://example.com/jobs/modelserve-pm",
+      "posted_date": "2026-01-26",
+      "relevance_score": 81.0
+    },
+    {
+      "id": "job014",
+      "title": "Business Intelligence Analyst",
+      "company": {
+        "name": "MetricsFirst",
+        "is_startup": true,
+        "funding_stage": "Series A",
+        "industry": "Analytics"
+      },
+      "location": "Miami, FL",
+      "is_remote": true,
+      "salary": {
+        "min": 90000,
+        "max": 120000,
+        "currency": "USD"
+      },
+      "categories": ["Data Analytics"],
+      "description": "Build dashboards and reports for stakeholders. SQL, Looker, and Python skills needed.",
+      "url": "https://example.com/jobs/metricsfirst-bi",
+      "posted_date": "2026-01-18",
+      "relevance_score": 75.0
+    },
+    {
+      "id": "job015",
+      "title": "Staff ML Engineer",
+      "company": {
+        "name": "DeepScale",
+        "is_startup": true,
+        "funding_stage": "Series C",
+        "industry": "Autonomous Systems"
+      },
+      "location": "Palo Alto, CA",
+      "is_remote": false,
+      "salary": {
+        "min": 220000,
+        "max": 280000,
+        "currency": "USD"
+      },
+      "categories": ["Data Science"],
+      "description": "Build perception ML models for autonomous systems. Deep learning and computer vision expertise.",
+      "url": "https://example.com/jobs/deepscale-staff-mle",
+      "posted_date": "2026-01-25",
+      "relevance_score": 89.5
+    }
+  ]
+}
