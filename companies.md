@@ -1,4 +1,4 @@
-# Job Search - Lead Data Analyst / Senior Data Analyst
+# Job Search - Lead Data Analyst / Senior Data Analyst / Product Analyst / Data Scientist (Experimentation)
 
 ## Saved Prompt
 > Create a new file named companies.md. Add moveworks.com, Meta, Google, Chime, and other financial sector companies similar to Vanguard (but not Vanguard) and list in .md file. Then based on my skills look for a job posting on their career website. If any job matches that is in US Remote or US - California then share those jobs with me in a .md file with the job details, how it applies to me, and a link to apply. Save this prompt in companies.md for later use.
@@ -64,25 +64,80 @@
 
 ---
 
-#### 2. Data Analyst, People Analytics
+#### 2. Product Growth Analyst — STRONG MATCH (Experimentation)
+- **Location:** Remote (telecommuting permitted)
+- **Apply:** [Meta Careers](https://www.metacareers.com/jobs/1908054659970121)
+
+**Description:** Drive long-term growth of Meta products through data analysis, product ideation, and experimentation. Lead experimentation from designing tests to analyzing results that lead to launch decisions.
+
+**Requirements:** Bachelor's in Business Analytics, Statistics, Economics, Mathematics, Engineering or related. 2+ years experience. Skills in statistics, hypothesis testing, product experimentation, regressions, experimentation logic and biases.
+
+**Fit:** Strong — experimentation-first role directly aligned with A/B testing, causal inference, and statistical modeling expertise. Remote eligible. Title may be below level but scope is highly relevant.
+
+---
+
+#### 3. Data Scientist, Product Analytics (alternate posting)
+- **Location:** California (multiple offices)
+- **Apply:** [Meta Careers](https://www.metacareers.com/v2/jobs/435020605866341/)
+
+**Description:** Apply technical expertise with quantitative analysis, experimentation, data mining, and data presentation to develop strategies for products serving billions.
+
+**Requirements:** 4+ years solving analytical problems using quantitative approaches, including defining metrics, experiment design, and communicating actionable insights.
+
+**Fit:** Strong — experimentation + product analytics at scale. 4+ years requirement fits. California-based.
+
+---
+
+#### 4. Data Scientist Manager, Central Product Platform
+- **Location:** California
+- **Apply:** [Meta Careers](https://www.metacareers.com/jobs/24825863527043364)
+
+**Description:** Partner with cross-functional teams, monitor performance against growth goals, build experimentation rigor. Management role.
+
+**Requirements:** 7+ years in applied quantitative analysis, statistical modeling, or ML in experimentation space. 2+ years managing analytics teams. Background in experimentation and survey research preferred.
+
+**Fit:** Moderate — requires 7+ years and 2+ years management. Strong experimentation focus. Worth considering if interested in moving to a management track.
+
+---
+
+#### 5. Data Analyst, People Analytics
 - **Location:** California (likely Menlo Park)
 - **Salary:** $104,000 - $146,000 + bonus + equity + benefits
 - **Apply:** [Meta Careers](https://www.metacareers.com/jobs/1124394892922401)
 
 **Description:** Drive the business by empowering HR, Recruiting, and business leaders to incorporate people insights into workforce and business decisions. Create analysis with people data, build dashboards for scaled solutions and efficient reporting.
 
-**Fit:** Moderate — skills align (SQL, dashboards, data analysis) but domain is People Analytics/HR rather than product or finance. Salary range is below current level. Worth considering if interested in the HR analytics domain at Meta.
+**Fit:** Moderate — skills align (SQL, dashboards, data analysis) but domain is People Analytics/HR rather than product or finance. Salary range is below current level.
 
 ---
 
 ### Google
 
-No specific Lead/Senior Data Analyst roles were found on Google Careers matching US Remote or California at time of search. Related roles exist across BI, Financial Planning & Analysis, and YouTube analytics.
+#### 1. Data Scientist, Research — Ecosystem Growth Data Science — STRONG MATCH
+- **Location:** California (likely Mountain View)
+- **Apply:** [Google Careers](https://www.google.com/about/careers/applications/jobs/results/143017958908535494-data-scientist-research-ecosystem-growth-data-science)
 
-- **Salary Range (typical):** $125,000 - $183,000
-- **Browse:** [Google Careers — Data Analyst](https://www.google.com/about/careers/applications/jobs/results?distance=50&q=data+analyst)
+**Description:** Lead large-scale data analysis and novel modeling approaches. Partner with Product, Engineering, and UX research to define evaluation metrics, validation methodologies, and experimentation frameworks. Translate complex findings into actionable product recommendations.
 
-**Note:** Google frequently updates postings. Recommend setting alerts on the careers page filtered for "Data Analyst" in California/Remote.
+**Requirements:** PhD in Statistics, Mathematics, Physics, Economics, or related quantitative field. 5 years experience (or 3 with PhD). Experience with statistical data analysis, experimental design (A/B testing), and causal inference.
+
+**Fit:** Strong — directly requires A/B testing, causal inference, experimentation frameworks, and product analytics. PhD preferred may be a barrier but equivalent practical experience noted. Salary range: $156,000-$229,000.
+
+---
+
+#### 2. Product Data Scientist, Google Pay — STRONG MATCH
+- **Location:** California
+- **Apply:** [Google Careers](https://www.google.com/about/careers/applications/jobs/results/83748081043940038-product-data-scientist/)
+
+**Description:** Guide analysis for Google Play/Pay, focusing on product features and user experience. Optimize the purchase flow and experience. Partner with PM and Engineering for data feed, experiment design, and product insights.
+
+**Requirements:** Experience with ML models, A/B testing, data analytics pipelines, classification/regression, and prediction.
+
+**Fit:** Strong — product-focused experimentation role in fintech-adjacent (payments). Directly requires A/B testing and experiment design. California-based.
+
+- **Browse all:** [Google Careers — Data Analyst](https://www.google.com/about/careers/applications/jobs/results?distance=50&q=data+analyst)
+
+**Note:** Google frequently updates postings. Recommend setting alerts filtered for "Data Scientist" or "Product Analyst" in California/Remote.
 
 ---
 
@@ -127,9 +182,50 @@ No Data Analyst roles currently open. Open positions focus on ML Engineering, Sa
 
 ---
 
+#### 4. Senior Data Scientist, Member Insights — Growth — STRONG MATCH (Experimentation)
+- **Location:** San Francisco, CA
+- **Salary:** $180,000 - $233,000
+- **Apply:** [Glassdoor](https://www.glassdoor.com/job-listing/senior-data-scientist-member-insights-growth-sofi-JV_IC1147401_KO0,44_KE45,49.htm?jl=1009996269478) | [Built In SF](https://www.builtinsf.com/job/senior-data-scientist-member-insights/201722)
+
+**Description:** Drive and accelerate member growth across broad growth initiatives. Conduct deep-dive analyses including customer segmentation, funnel analysis, A/B testing, and elasticity/trade-off evaluations. Develop propensity/uplift models to inform targeting and investment decisions.
+
+**Requirements:** Strong SQL, Python/R, Tableau, Statistics. Deep expertise in metrics, segmentation, experimentation. Experience with experimental design, A/B testing, quasi-experimentation for causal inference.
+
+**Fit:** Excellent — directly requires A/B testing, causal inference, experimentation design, and product growth analytics. Fintech domain. Strong salary. SF hybrid.
+
+---
+
+#### 5. Staff Data Scientist, Credit Risk Strategy (Experimentation)
+- **Location:** San Francisco, CA
+- **Apply:** [Built In SF](https://www.builtinsf.com/job/staff-data-scientist-credit-risk-strategy/4685036)
+
+**Description:** Develop income/employment verification strategies. Design and execute A/B testing initiatives to improve customer experience while managing credit and fraud risk.
+
+**Fit:** Moderate — involves A/B testing but focused on credit risk strategy. Staff-level title appropriate. SF-based.
+
+---
+
 ### Robinhood
 
-No specific Data Analyst roles matching US Remote or California found at time of search. Robinhood is headquartered in Menlo Park, CA and posts roles across Data Science, Financial Analysis, and Data Engineering.
+#### 1. Staff Data Scientist, Experimentation Platform — STRONG MATCH
+- **Location:** Menlo Park, CA (Hybrid — 3+ days/week in office)
+- **Salary:** $217,000 - $255,000
+- **Apply:** [Glassdoor](https://www.glassdoor.com/job-listing/staff-data-scientist-experimentation-platform-robinhood-JV_IC1147371_KO0,45_KE46,55.htm?jl=1009886297633) | [Startup.jobs](https://startup.jobs/staff-data-scientist-experimentation-robinhoodapp-1986809)
+
+**Description:** Shape the statistical foundations of Robinhood's experimentation systems. Craft measurement systems to power experimentation and decision making. Serve as tech lead for experiment analysis — experimental design, power analysis, hypothesis testing, variance estimation, heterogeneous treatment effects.
+
+**Requirements:** Master's or PhD in quantitative field. 6+ years with A/B testing, causal inference, experimental design, and statistical analysis. Deep expertise in multivariate testing, adaptive experimentation, Bayesian inference, and ML techniques. Experience with causal inference tools (regression discontinuity, synthetic controls, DiD, doubly robust estimation).
+
+**Fit:** Excellent — this is a pure experimentation role. Directly aligned with A/B testing, causal inference, and statistical modeling expertise. Very high salary. Requires 6+ years (fits). PhD preferred may be a barrier. Menlo Park hybrid (3 days/week).
+
+---
+
+#### 2. Senior Data Scientist, Experimentation — Menlo Park, CA
+- **Location:** Menlo Park, CA (Hybrid)
+
+**Description:** Shape statistical foundations of experimentation systems. Advance A/B testing best practices, improve experiment velocity, build capabilities to scale experimentation.
+
+**Fit:** Strong — similar to Staff role above but at Senior level. Good stepping stone if Staff level requirements are too high.
 
 - **Browse:** [Robinhood Careers](https://careers.robinhood.com/)
 
@@ -260,16 +356,40 @@ No specific remote Data Analyst roles found. California-based roles exist in San
 
 ---
 
-#### 6. Data Analyst, Product
-- **Location:** San Francisco, CA (Hybrid)
+#### 6. Data Analyst, Product (Experimentation-focused)
+- **Location:** San Francisco, CA (Hybrid) / possible Remote
 - **Salary:** $124,600 - $155,800
 - **Apply:** [Chime Careers](https://careers.chime.com/en/jobs/8038592002/data-analyst-product/)
 
-**Description:** Develop, test, launch, and scale member banking experience products through experimentation, behavioral analysis, statistical and data science modeling, and dashboard development.
+**Description:** Develop, test, launch, and scale member banking experience products through experimentation, behavioral analysis, statistical and data science modeling, and dashboard development. Lead experimentation by providing mentorship on how they should be run, defining success metrics, evaluating impact, and providing strategic direction.
 
 **Requirements:** 4+ years in data-focused roles. B2C product analytics and FinTech experience preferred. SQL expertise, R or Python familiarity.
 
-**Fit:** Moderate — skills align well (A/B testing, statistical modeling, Python/R, SQL), but this role is likely **below level**. At 4+ years and a non-senior title, it would be a step down from Lead Data Analyst. Only worth considering if specifically interested in product analytics at a lower salary.
+**Fit:** Moderate — experimentation leadership is a key responsibility which aligns well. Below level at 4+ years and non-senior title. Worth considering if specifically interested in product experimentation at Chime.
+
+---
+
+#### 7. Senior Data Analyst, Product Analytics — STRONG MATCH (Experimentation)
+- **Location:** San Francisco, CA (Hybrid)
+- **Salary:** $156,300 - $195,400
+- **Apply:** [Chime Careers](https://careers.chime.com/browse-jobs/6770544002/senior-data-analyst-product-analytics/) | [Built In SF](https://www.builtinsf.com/job/data-analyst/1832452)
+
+**Description:** Develop, test, launch and scale member banking experience products through experimentation, user behavioral analysis, sophisticated statistical and data science modeling, and dashboards. Work closely with product managers, user research, engineers.
+
+**Requirements:** 5+ years in data-focused roles. Experience leading experimentation, statistical analysis, and sophisticated measurement (e.g., causal inference) E2E. Hands-on experience with BI/Visualization tools (Looker, Tableau, PowerBI).
+
+**Fit:** Excellent — explicitly requires leading experimentation and causal inference end-to-end. Looker/Tableau, SQL, Python/R all directly match. 5+ years fits. Fintech/B2C product analytics. Strong salary.
+
+---
+
+#### 8. Senior Data Analyst, Spending (Experimentation)
+- **Location:** San Francisco, CA (Hybrid)
+- **Salary:** $133,000 - $185,000
+- **Apply:** [DataAnalyst.com](https://www.dataanalyst.com/job/senior-data-analyst-spending)
+
+**Description:** Develop, test, launch and scale member banking experience products that make Chime the best place to spend, save and invest. Product experimentation and behavioral analysis.
+
+**Fit:** Strong — product experimentation in fintech spending domain. Salary and level align well.
 
 ---
 
