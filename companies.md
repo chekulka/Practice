@@ -51,6 +51,148 @@
 
 ---
 
+### Meta
+
+#### 1. Data Scientist, Product Analytics — STRONG MATCH
+- **Location:** Sunnyvale, CA / Los Angeles, CA / Menlo Park, CA / San Francisco, CA / Remote, US
+- **Salary:** $173,000 - $242,000 + bonus + equity + benefits
+- **Apply:** [Meta Careers](https://www.metacareers.com/jobs/1070147800777577)
+
+**Description:** Apply technical skills, analytical mindset, and product intuition to one of the richest data sets in the world. Help define experiences built for billions of people and hundreds of millions of businesses.
+
+**Fit:** Strong — directly leverages SQL, Python/R, statistical modeling, A/B testing, and data visualization expertise. Title is "Data Scientist" but the role is product analytics-focused and aligns with Lead Data Analyst skill set. Available fully remote in the US.
+
+---
+
+#### 2. Data Analyst, People Analytics
+- **Location:** California (likely Menlo Park)
+- **Salary:** $104,000 - $146,000 + bonus + equity + benefits
+- **Apply:** [Meta Careers](https://www.metacareers.com/jobs/1124394892922401)
+
+**Description:** Drive the business by empowering HR, Recruiting, and business leaders to incorporate people insights into workforce and business decisions. Create analysis with people data, build dashboards for scaled solutions and efficient reporting.
+
+**Fit:** Moderate — skills align (SQL, dashboards, data analysis) but domain is People Analytics/HR rather than product or finance. Salary range is below current level. Worth considering if interested in the HR analytics domain at Meta.
+
+---
+
+### Google
+
+No specific Lead/Senior Data Analyst roles were found on Google Careers matching US Remote or California at time of search. Related roles exist across BI, Financial Planning & Analysis, and YouTube analytics.
+
+- **Salary Range (typical):** $125,000 - $183,000
+- **Browse:** [Google Careers — Data Analyst](https://www.google.com/about/careers/applications/jobs/results?distance=50&q=data+analyst)
+
+**Note:** Google frequently updates postings. Recommend setting alerts on the careers page filtered for "Data Analyst" in California/Remote.
+
+---
+
+### Moveworks
+
+No Data Analyst roles currently open. Open positions focus on ML Engineering, Sales, and Customer Success. A Senior Product Analyst role exists but is based in Bengaluru, India.
+
+- **Browse:** [Moveworks Careers](https://www.moveworks.com/us/en/company/careers)
+
+---
+
+### SoFi
+
+#### 1. Staff Data Analyst, Internal Audit — MODERATE MATCH
+- **Location:** Hybrid (few days/month in office)
+- **Apply:** [Built In](https://builtin.com/job/staff-data-analyst/4217776)
+
+**Description:** Lead the development of the data analytics function within Internal Audit. Design and maintain data routines, support audit activities, enhance analytics strategies, and automate processes to analyze large data volumes for risk evaluation.
+
+**Fit:** Moderate — strong technical match (SQL, Python, data pipelines) but domain is Internal Audit rather than product/business analytics. Staff-level title is appropriate.
+
+---
+
+#### 2. Staff Analyst, Business Banking — REMOTE
+- **Location:** Remote - US
+- **Apply:** [Remote Rocketship](https://www.remoterocketship.com/company/sofi/jobs/staff-analyst-business-banking-united-states-remote/)
+
+**Description:** Support early Business Banking initiatives by helping define analytical foundations, measurement approaches, and reporting standards. Partner with Product, Engineering, Risk, and Operations teams.
+
+**Fit:** Strong — fully remote, fintech domain, involves KPI frameworks, measurement strategy, and cross-functional analytics. Early-stage analytical foundation work aligns with analytics architecture experience.
+
+---
+
+#### 3. Senior Fraud Risk Analytics Manager — REMOTE
+- **Location:** California Remote / Florida / New York / Texas / Washington (Remote)
+- **Salary:** $137,600 - $236,500
+- **Apply:** [Remote Rocketship](https://www.remoterocketship.com/company/sofi/jobs/senior-fraud-risk-analytics-manager-united-states)
+
+**Description:** Fraud risk analytics management role spanning multiple remote states.
+
+**Fit:** Moderate — strong salary, fully remote, fintech. Domain is fraud/risk which is narrower but transferable. Manager title may require people management experience.
+
+---
+
+### Robinhood
+
+No specific Data Analyst roles matching US Remote or California found at time of search. Robinhood is headquartered in Menlo Park, CA and posts roles across Data Science, Financial Analysis, and Data Engineering.
+
+- **Browse:** [Robinhood Careers](https://careers.robinhood.com/)
+
+---
+
+### Capital One
+
+#### 1. Senior Data Analyst, Software — REMOTE — STRONG MATCH
+- **Location:** Remote - US
+- **Salary:** $99,100 - $113,100 (remote) / $109,000 - $124,400 (McLean, VA)
+- **Apply:** [Capital One Careers](https://www.capitalonecareers.com/job/remote/senior-data-analyst-software-remote/1732/89803653136)
+
+**Description:** Leverage analytic and technical skills to innovate, build, and maintain well-managed data solutions and capabilities to tackle business problems.
+
+**Fit:** Strong — fully remote, Senior Data Analyst title, fintech/banking domain. Skills align well. Salary is lower than current range but offers performance-based incentives + LTI.
+
+- **Browse all remote data analyst roles:** [Capital One Remote Data Analyst Jobs](https://www.capitalonecareers.com/employment/remote-data-analyst-jobs/234/8248352/1000000000100/2)
+
+---
+
+### Fidelity Investments
+
+No specific California-based or US Remote Data Analyst roles surfaced in search. Most openings are in Merrimack, NH; Boston, MA; Westlake, TX; and Smithfield, RI.
+
+- **Browse:** [Fidelity Careers](https://jobs.fidelity.com/en/jobs/)
+- **Data Analytics roles:** [Fidelity Analytics Careers](https://jobs.fidelity.com/in/job-categories/analytics-research-and-data/)
+
+---
+
+### Charles Schwab
+
+No specific Data Analyst roles matching California Remote found in search. Schwab has a Data Analytics and Strategy job category on their careers site.
+
+- **Browse:** [Schwab Jobs — Data Analytics](https://www.schwabjobs.com/category/data-analytics-and-strategy-jobs/27326/8175664/1)
+- **California roles:** [Schwab California Jobs](https://www.schwabjobs.com/location/california-jobs/27326/6252001-5332921/3)
+
+---
+
+### BlackRock
+
+No specific Data Analyst roles matching US Remote or California found. Some Data Engineering roles exist in San Francisco.
+
+- **Browse:** [BlackRock Data Analytics Jobs](https://careers.blackrock.com/category/data-analytics-jobs/45831/8771696/1)
+
+---
+
+### JP Morgan Chase
+
+No specific Data Analyst roles matching US Remote or California found in search. Most positions are in New York, New Jersey, Ohio, Delaware, or Texas.
+
+- **Salary Range (typical):** $99,750 - $160,000
+- **Browse:** [JPMorgan Chase Careers](https://www.jpmorganchase.com/careers/explore-opportunities)
+
+---
+
+### Goldman Sachs
+
+No specific remote Data Analyst roles found. California-based roles exist in San Francisco (Healthcare Data Analyst, Summer Analyst) and Newport Beach/Los Angeles (Financial Planning, Wealth Management).
+
+- **Browse:** [Goldman Sachs Careers](https://www.goldmansachs.com/careers)
+
+---
+
 ### Chime
 
 #### 1. Staff Data Analyst (Strategic Finance) — STRONGEST MATCH
