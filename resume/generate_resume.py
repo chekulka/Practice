@@ -273,7 +273,7 @@ def generate_resume():
         s["job_company"]
     ))
     story.append(Paragraph(
-        "Senior Consultant  |  Bangalore, India",
+        "Consultant (Data Analyst)  |  Bangalore, India",
         s["job_role"]
     ))
     story.append(bullet_text(s["bullet"],
