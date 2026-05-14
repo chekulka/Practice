@@ -23,57 +23,57 @@ def build_styles():
 
     styles = {
         "name": ParagraphStyle(
-            "Name", fontName="Helvetica-Bold", fontSize=18,
-            textColor=dark, alignment=TA_CENTER, spaceAfter=2, leading=22,
+            "Name", fontName="Helvetica-Bold", fontSize=16,
+            textColor=dark, alignment=TA_CENTER, spaceAfter=1, leading=20,
         ),
         "contact": ParagraphStyle(
-            "Contact", fontName="Helvetica", fontSize=9,
-            textColor=mid_gray, alignment=TA_CENTER, spaceAfter=10, leading=12,
+            "Contact", fontName="Helvetica", fontSize=8.5,
+            textColor=mid_gray, alignment=TA_CENTER, spaceAfter=6, leading=11,
         ),
         "section_header": ParagraphStyle(
-            "SectionHeader", fontName="Helvetica-Bold", fontSize=11,
-            textColor=dark, spaceBefore=8, spaceAfter=2, leading=14,
+            "SectionHeader", fontName="Helvetica-Bold", fontSize=10,
+            textColor=dark, spaceBefore=5, spaceAfter=1, leading=13,
         ),
         "summary": ParagraphStyle(
-            "Summary", fontName="Helvetica", fontSize=9.5,
-            textColor=light_gray, spaceAfter=4, leading=13.5,
-        ),
-        "job_company": ParagraphStyle(
-            "JobCompany", fontName="Helvetica-Bold", fontSize=10,
-            textColor=gray, spaceAfter=0, leading=13,
-        ),
-        "job_role": ParagraphStyle(
-            "JobRole", fontName="Helvetica-Oblique", fontSize=9.5,
-            textColor=accent, spaceAfter=2, leading=12,
-        ),
-        "bullet": ParagraphStyle(
-            "Bullet", fontName="Helvetica", fontSize=9,
-            textColor=light_gray, leftIndent=14, firstLineIndent=-14,
-            spaceAfter=3, leading=12.5,
-        ),
-        "skill_line": ParagraphStyle(
-            "SkillLine", fontName="Helvetica", fontSize=9,
+            "Summary", fontName="Helvetica", fontSize=9,
             textColor=light_gray, spaceAfter=2, leading=12.5,
         ),
-        "edu_title": ParagraphStyle(
-            "EduTitle", fontName="Helvetica-Bold", fontSize=9.5,
+        "job_company": ParagraphStyle(
+            "JobCompany", fontName="Helvetica-Bold", fontSize=9.5,
             textColor=gray, spaceAfter=0, leading=12,
         ),
+        "job_role": ParagraphStyle(
+            "JobRole", fontName="Helvetica-Oblique", fontSize=9,
+            textColor=accent, spaceAfter=1, leading=11,
+        ),
+        "bullet": ParagraphStyle(
+            "Bullet", fontName="Helvetica", fontSize=8.5,
+            textColor=light_gray, leftIndent=12, firstLineIndent=-12,
+            spaceAfter=2, leading=11.5,
+        ),
+        "skill_line": ParagraphStyle(
+            "SkillLine", fontName="Helvetica", fontSize=8.5,
+            textColor=light_gray, spaceAfter=1, leading=11.5,
+        ),
+        "edu_title": ParagraphStyle(
+            "EduTitle", fontName="Helvetica-Bold", fontSize=9,
+            textColor=gray, spaceAfter=0, leading=11,
+        ),
         "edu_school": ParagraphStyle(
-            "EduSchool", fontName="Helvetica", fontSize=9,
-            textColor=mid_gray, spaceAfter=4, leading=12,
+            "EduSchool", fontName="Helvetica", fontSize=8.5,
+            textColor=mid_gray, spaceAfter=3, leading=11,
         ),
         "patent_title": ParagraphStyle(
-            "PatentTitle", fontName="Helvetica-Bold", fontSize=9.5,
-            textColor=gray, spaceAfter=1, leading=12,
+            "PatentTitle", fontName="Helvetica-Bold", fontSize=9,
+            textColor=gray, spaceAfter=1, leading=11,
         ),
         "patent_meta": ParagraphStyle(
-            "PatentMeta", fontName="Helvetica", fontSize=9,
-            textColor=mid_gray, spaceAfter=2, leading=12,
+            "PatentMeta", fontName="Helvetica", fontSize=8.5,
+            textColor=mid_gray, spaceAfter=1, leading=11,
         ),
         "patent_desc": ParagraphStyle(
-            "PatentDesc", fontName="Helvetica", fontSize=9,
-            textColor=light_gray, spaceAfter=2, leading=12,
+            "PatentDesc", fontName="Helvetica", fontSize=8.5,
+            textColor=light_gray, spaceAfter=1, leading=11,
         ),
     }
     return styles
@@ -83,7 +83,7 @@ def section_divider():
     """Return a horizontal rule for section separation."""
     return HRFlowable(
         width="100%", thickness=0.8,
-        color=HexColor("#0f3460"), spaceAfter=6, spaceBefore=1,
+        color=HexColor("#0f3460"), spaceAfter=3, spaceBefore=1,
     )
 
 
@@ -105,10 +105,10 @@ def generate_resume():
     doc = SimpleDocTemplate(
         output_path,
         pagesize=letter,
-        leftMargin=0.65 * inch,
-        rightMargin=0.65 * inch,
-        topMargin=0.5 * inch,
-        bottomMargin=0.5 * inch,
+        leftMargin=0.55 * inch,
+        rightMargin=0.55 * inch,
+        topMargin=0.4 * inch,
+        bottomMargin=0.4 * inch,
     )
 
     s = build_styles()
@@ -136,7 +136,7 @@ def generate_resume():
         "Looker, and Tableau. Comfortable with ambiguous, fast-paced environments.",
         s["summary"]
     ))
-    story.append(Spacer(1, 4))
+    story.append(Spacer(1, 2))
 
     # ── PROFESSIONAL EXPERIENCE ──
     story.append(Paragraph("PROFESSIONAL EXPERIENCE", s["section_header"]))
@@ -181,15 +181,10 @@ def generate_resume():
         "monitoring for senior stakeholders."
     ))
     story.append(bullet_text(s["bullet"],
-        "Mentored junior analysts on statistical methodology, A/B test design, and causal inference; "
-        "improved cross-functional data literacy by leading measurement education sessions with "
-        "product and engineering teams."
+        "Mentored junior analysts on A/B test design and causal inference; served as analytics advisor "
+        "to leadership, communicating statistical uncertainty to inform resource allocation decisions."
     ))
-    story.append(bullet_text(s["bullet"],
-        "Served as analytics advisor to leadership, communicating statistical uncertainty and "
-        "translating findings into resource allocation and strategic investment decisions."
-    ))
-    story.append(Spacer(1, 5))
+    story.append(Spacer(1, 3))
 
     # --- Deloitte (San Diego) ---
     story.append(Paragraph(
@@ -228,11 +223,7 @@ def generate_resume():
         "Built ETL pipelines and data infrastructure using Apache Airflow and AWS Athena, supporting "
         "analytics at scale for client product workflows."
     ))
-    story.append(bullet_text(s["bullet"],
-        "Led investigative analytics projects from problem definition through delivery, producing "
-        "actionable insights that shaped client product roadmap decisions."
-    ))
-    story.append(Spacer(1, 5))
+    story.append(Spacer(1, 3))
 
     # --- Genentech ---
     story.append(Paragraph(
@@ -264,7 +255,7 @@ def generate_resume():
         "Collaborated with cross-functional ML and pathology teams to translate model outputs into "
         "clinical workflow decisions."
     ))
-    story.append(Spacer(1, 5))
+    story.append(Spacer(1, 3))
 
     # --- Deloitte (India) ---
     story.append(Paragraph(
@@ -286,71 +277,34 @@ def generate_resume():
         s["job_role"]
     ))
     story.append(bullet_text(s["bullet"],
-        "Analyzed large-scale public sector healthcare insurance data using SQL and Python; designed "
-        "anomaly detection pipelines and delivered data-driven insights for policy optimization."
+        "Analyzed large-scale public sector healthcare insurance data using SQL and Python; designed anomaly "
+        "detection pipelines and led business case definition across cross-functional enterprise analytics engagements."
     ))
-    story.append(bullet_text(s["bullet"],
-        "Led business case definition, scope planning, and data quality testing across "
-        "cross-functional teams for enterprise analytics engagements."
-    ))
-    story.append(Spacer(1, 6))
+    story.append(Spacer(1, 2))
 
     # ── TECHNICAL SKILLS ──
     story.append(Paragraph("TECHNICAL SKILLS", s["section_header"]))
     story.append(section_divider())
     story.append(skill_row(s["skill_line"],
-        "Experimentation",
-        "A/B Testing, Experiment Design, Power Analysis, Sample Size Estimation, "
-        "Non-Inferiority Testing, Hypothesis Testing, Guardrail Metrics"))
+        "Experimentation &amp; Causal Inference",
+        "A/B Testing, Experiment Design, Power Analysis, Non-Inferiority Testing, "
+        "Staggered DiD, Propensity Score Matching, Guardrail Metrics, Bayesian Methods"))
     story.append(skill_row(s["skill_line"],
-        "Causal Inference &amp; Stats",
-        "Staggered DiD, Propensity Score Matching, Pre-Post Analysis, Regression, "
-        "Statistical Modeling, Forecasting, Bayesian Methods, Time Series Analysis"))
+        "Stats &amp; ML",
+        "Statistical Modeling, Forecasting, Regression, Time Series, Hypothesis Testing, "
+        "ML, Deep Learning, Clustering, Uplift Modeling"))
     story.append(skill_row(s["skill_line"],
-        "Languages", "SQL (Expert), Python (Expert), R"))
+        "Languages &amp; BI", "SQL (Expert), Python (Expert), R, Looker, Tableau, Data Studio"))
     story.append(skill_row(s["skill_line"],
-        "ML &amp; Modeling",
-        "Machine Learning, Deep Learning, Clustering, Uplift Modeling, CNN"))
+        "Engineering &amp; Tools",
+        "Apache Airflow, dbt, ETL Design, AWS (SageMaker, Athena), GCP, BigQuery, "
+        "KPI Frameworks, Metrics Development, Measurement Strategy, Git"))
     story.append(skill_row(s["skill_line"],
-        "Visualization &amp; BI", "Looker, Tableau, Data Studio"))
+        "Education",
+        "M.S. Data Analytics, Northeastern University  |  B.E. Information Science, VTU India"))
     story.append(skill_row(s["skill_line"],
-        "Data Engineering",
-        "Apache Airflow, dbt, ETL Pipeline Design, AWS (SageMaker, Athena), GCP, BigQuery"))
-    story.append(skill_row(s["skill_line"],
-        "Frameworks",
-        "KPI Frameworks, Metrics Development, Measurement Strategy, Analytics Architecture, OKR Development"))
-    story.append(skill_row(s["skill_line"],
-        "Tools", "Adobe Analytics, Adobe Target, Git, Jupyter"))
-    story.append(Spacer(1, 6))
-
-    # ── EDUCATION ──
-    story.append(Paragraph("EDUCATION", s["section_header"]))
-    story.append(section_divider())
-    story.append(Paragraph("Master of Science in Data Analytics", s["edu_title"]))
-    story.append(Paragraph("Northeastern University, Boston, MA", s["edu_school"]))
-    story.append(Paragraph(
-        "Bachelor of Engineering in Information Science and Engineering", s["edu_title"]))
-    story.append(Paragraph(
-        "Visvesvaraya Technological University (VTU), Belgaum, India", s["edu_school"]))
-    story.append(Spacer(1, 6))
-
-    # ── PATENT ──
-    story.append(Paragraph("PATENT", s["section_header"]))
-    story.append(section_divider())
-    story.append(Paragraph(
-        "Image Quality Analysis for Artifact Detection in Pathology Slide Images (Approved 2025)",
-        s["patent_title"]
-    ))
-    story.append(Paragraph(
-        "US Patent Application No. US2022/0318979 A1  |  Published March 2022  |  Genentech, Inc",
-        s["patent_meta"]
-    ))
-    story.append(Paragraph(
-        "Developed a patented method for detecting imaging artifacts in digital pathology slides, "
-        "applying automated image processing techniques to identify and flag quality issues in "
-        "whole-slide images used for clinical diagnosis.",
-        s["patent_desc"]
-    ))
+        "Patent",
+        "US2022/0318979 A1 (Approved 2025) — Image Quality Analysis for Artifact Detection | Genentech"))
 
     doc.build(story)
     print(f"Resume generated successfully: {output_path}")
