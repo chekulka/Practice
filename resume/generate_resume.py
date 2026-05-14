@@ -1,6 +1,6 @@
 """
 ATS-Optimized Resume Generator for Chetan Kulkarni
-Targeted for Lead Data Analyst roles at Chime and NerdWallet
+Targeted for Product Data Scientist / Experimentation roles
 Uses reportlab for PDF generation
 """
 from reportlab.lib.pagesizes import letter
@@ -100,7 +100,7 @@ def skill_row(style, category, skills):
 
 
 def generate_resume():
-    output_path = "/home/user/Practice/resume/Chetan_Kulkarni_Lead_Data_Analyst_Resume.pdf"
+    output_path = "/home/user/Practice/resume/Chetan_Kulkarni_Product_Data_Scientist_Resume.pdf"
 
     doc = SimpleDocTemplate(
         output_path,
@@ -117,23 +117,23 @@ def generate_resume():
     # ── NAME & CONTACT ──
     story.append(Paragraph("CHETAN KULKARNI", s["name"]))
     story.append(Paragraph(
-        "Dallas, TX  |  617-331-9347  |  chetanmkulkarni@gmail.com  |  "
+        "Product &amp; Digital Analytics  |  Open to Remote &amp; California  |  "
+        "617-331-9347  |  chetanmkulkarni@gmail.com  |  "
         "linkedin.com/in/chetanmkulkarni",
         s["contact"]
     ))
 
     # ── PROFESSIONAL SUMMARY ──
-    story.append(Paragraph("PROFESSIONAL SUMMARY", s["section_header"]))
+    story.append(Paragraph("SUMMARY", s["section_header"]))
     story.append(section_divider())
     story.append(Paragraph(
-        "Lead Data Analyst with 6+ years of experience driving forecasting, analytics architecture, "
-        "and data-driven decision-making in financial services and fintech. Expert in building scalable "
-        "analytics solutions, KPI frameworks, and measurement strategies that shape business outcomes. "
-        "Proven track record of leading 25+ A/B experiments with measurable revenue and engagement impact. "
-        "Adept at building forecasting infrastructure, designing semantic models, and partnering with "
-        "cross-functional teams including Finance, Product, Marketing, and Engineering. Proficient in "
-        "SQL, Python, R, Looker, and Tableau with deep expertise in statistical modeling, causal inference, "
-        "and executive-level communication of insights and uncertainty.",
+        "Product data scientist with 8+ years delivering action-oriented insights that drive product "
+        "strategy at scale. Expert in A/B test design and execution (20+ experiments), causal inference "
+        "methods (staggered DiD, propensity score matching, pre-post analysis) for consumer "
+        "product decision-making, and statistical modeling. Proven track record translating complex "
+        "quantitative findings into measurable outcomes — from $665M in new deposits to self-serve "
+        "analytics tools that improve cross-functional data literacy. Proficient in SQL, Python, R, "
+        "Looker, and Tableau. Comfortable with ambiguous, fast-paced environments.",
         s["summary"]
     ))
     story.append(Spacer(1, 4))
@@ -156,33 +156,42 @@ def generate_resume():
         "Sep 2023 - Present</font>",
         s["job_company"]
     ))
-    story.append(Paragraph("Lead Data Analyst  |  Dallas, TX", s["job_role"]))
-    story.append(bullet_text(s["bullet"],
-        "Architected and owned the experimentation framework, designing and executing 20+ A/B tests "
-        "and pre-post analyses with a 25% success rate, driving a 3-5% reduction in call rate and "
-        "2-3% increase in Journey Completes across digital channels."
+    story.append(Paragraph(
+        "Lead Product Data Analyst / Data Scientist  |  Dallas, TX / San Diego, CA",
+        s["job_role"]
     ))
     story.append(bullet_text(s["bullet"],
-        "Built forecasting models and measurement strategies for key financial KPIs and unit economics, "
-        "enabling predictable member funnel growth and data-driven investment decisions across product "
-        "and marketing initiatives."
+        "Developed action-oriented insights through observational causal analysis (staggered "
+        "difference-in-differences, propensity score matching) to inform product strategy for "
+        "Vanguard's digital consumer journeys, serving millions of members across web and mobile."
     ))
     story.append(bullet_text(s["bullet"],
-        "Spearheaded the Cash growth initiative by designing 5 targeted experiments and coordinating "
-        "with cross-functional teams (Product, Marketing, Finance, Operations), resulting in 19,000 "
-        "new cash accounts in a single month (0.5% of total accounts)."
+        "Architected end-to-end experimentation framework; designed and executed 20+ A/B tests with "
+        "power analysis and sample size estimation, driving a 5% reduction in support call rate "
+        "(~$250K+ annual savings) and 2–3% improvement in product engagement completion rate."
     ))
     story.append(bullet_text(s["bullet"],
-        "Designed scalable KPI frameworks and interactive dashboards in Looker and Tableau, delivering "
-        "actionable performance monitoring and proactive insights to executives and senior stakeholders."
+        "Spearheaded Cash growth initiative: designed 5 targeted experiments in coordination with "
+        "cross-functional partners (Product, Marketing, Finance), generating 19,000 new accounts "
+        "in a single month — ~$665M in new deposits and an estimated $10M+ in annualized net interest revenue."
     ))
     story.append(bullet_text(s["bullet"],
-        "Served as analytics advisor to leadership, translating complex statistical findings and "
-        "communicating uncertainty to facilitate strategic business decisions and resource allocation."
+        "Designed KPI frameworks and quarterly goal-setting metrics for digital product and marketing "
+        "initiatives, delivering Looker and Tableau dashboards that enabled self-serve performance "
+        "monitoring for senior stakeholders."
+    ))
+    story.append(bullet_text(s["bullet"],
+        "Mentored junior analysts on statistical methodology, A/B test design, and causal inference; "
+        "improved cross-functional data literacy by leading measurement education sessions with "
+        "product and engineering teams."
+    ))
+    story.append(bullet_text(s["bullet"],
+        "Served as analytics advisor to leadership, communicating statistical uncertainty and "
+        "translating findings into resource allocation and strategic investment decisions."
     ))
     story.append(Spacer(1, 5))
 
-    # --- Deloitte ---
+    # --- Deloitte (San Diego) ---
     story.append(Paragraph(
         "Deloitte Consulting <font size=9 color='#646464'>"
         "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
@@ -197,59 +206,92 @@ def generate_resume():
         "Jul 2021 - Sep 2023</font>",
         s["job_company"]
     ))
-    story.append(Paragraph("Senior Consultant  |  San Diego, CA", s["job_role"]))
-    story.append(bullet_text(s["bullet"],
-        "Led end-to-end analytics for a large-scale website modernization initiative, architecting "
-        "a staged rollout strategy with non-inferiority testing from 5% to 100% traffic exposure, "
-        "ensuring data-driven validation at each deployment phase."
+    story.append(Paragraph(
+        "Senior Consultant - Analytics  |  San Diego, CA",
+        s["job_role"]
     ))
     story.append(bullet_text(s["bullet"],
-        "Designed and executed statistical analyses including A/B experiments, causal inference methods, "
-        "and regression modeling to measure UI/UX impact on web performance, conversion rates, and "
-        "user behavior metrics."
+        "Applied causal inference and A/B testing — including non-inferiority experiments and "
+        "staggered difference-in-differences — to measure impact of product design changes on "
+        "user engagement and conversion for client financial web platforms."
     ))
     story.append(bullet_text(s["bullet"],
-        "Built and automated scalable ETL data pipelines using SQL and Apache Airflow, enabling "
-        "reproducible financial data workflows and reducing manual reporting effort by 60%."
+        "Built self-serve analytics tools and interactive dashboards in Tableau and Looker; improved "
+        "cross-functional data literacy by enabling product and design teams to independently monitor "
+        "key product metrics."
     ))
     story.append(bullet_text(s["bullet"],
-        "Partnered with cross-functional stakeholders across Engineering, Product, and Business teams "
-        "to drive analytics-informed decision-making, measurement alignment, and OKR development."
+        "Developed KPI frameworks and measurement strategies for digital products, aligning analytics "
+        "output to quarterly OKRs and business goals."
+    ))
+    story.append(bullet_text(s["bullet"],
+        "Built ETL pipelines and data infrastructure using Apache Airflow and AWS Athena, supporting "
+        "analytics at scale for client product workflows."
+    ))
+    story.append(bullet_text(s["bullet"],
+        "Led investigative analytics projects from problem definition through delivery, producing "
+        "actionable insights that shaped client product roadmap decisions."
     ))
     story.append(Spacer(1, 5))
 
     # --- Genentech ---
     story.append(Paragraph(
-        "Genentech, Inc <font size=9 color='#646464'>"
+        "Genentech, Inc (via Pro-Unlimited) <font size=9 color='#646464'>"
         "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
         "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
         "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
         "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
         "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
         "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
-        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
-        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
-        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
-        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+        "&nbsp;&nbsp;&nbsp;&nbsp;"
         "Jan 2020 - Jul 2021</font>",
         s["job_company"]
     ))
-    story.append(Paragraph("Informatics Data Analyst  |  South San Francisco, CA", s["job_role"]))
-    story.append(bullet_text(s["bullet"],
-        "Developed an automated Quality Control tool using Python and Local Binary Pattern (LBP) image "
-        "processing, reducing computational overhead for artifact detection in digital pathology slides."
+    story.append(Paragraph(
+        "Informatics Data Analyst  |  South San Francisco, CA",
+        s["job_role"]
     ))
     story.append(bullet_text(s["bullet"],
-        "Architected scalable data processing pipelines across multi-CPU/GPU environments, executing "
-        "tiling experiments at 10x, 20x, and 40x magnifications for whole-slide image analysis."
+        "Developed a 5-layer CNN to classify image quality in clinical pathology slides and an "
+        "LBP-based quality application — core invention in US Patent (US2022/0318979 A1, approved 2025)."
     ))
     story.append(bullet_text(s["bullet"],
-        "Built interactive Tableau dashboards with statistical metrics (contrast, entropy) and blur "
-        "heat maps, enabling pathologists to make data-driven quality assessments."
+        "Built production ML deployment pipeline with multi-GPU environment and Apache Airflow "
+        "automation; computed statistical quality metrics integrated with Tableau dashboard for "
+        "clinical review."
     ))
     story.append(bullet_text(s["bullet"],
-        "Designed the deployment pipeline using Apache Airflow for end-to-end task orchestration, "
-        "ensuring reproducible and automated analysis workflows."
+        "Collaborated with cross-functional ML and pathology teams to translate model outputs into "
+        "clinical workflow decisions."
+    ))
+    story.append(Spacer(1, 5))
+
+    # --- Deloitte (India) ---
+    story.append(Paragraph(
+        "Deloitte Consulting <font size=9 color='#646464'>"
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+        "Feb 2015 - Apr 2018</font>",
+        s["job_company"]
+    ))
+    story.append(Paragraph(
+        "Senior Consultant  |  Bangalore, India",
+        s["job_role"]
+    ))
+    story.append(bullet_text(s["bullet"],
+        "Analyzed large-scale public sector healthcare insurance data using SQL and Python; designed "
+        "anomaly detection pipelines and delivered data-driven insights for policy optimization."
+    ))
+    story.append(bullet_text(s["bullet"],
+        "Led business case definition, scope planning, and data quality testing across "
+        "cross-functional teams for enterprise analytics engagements."
     ))
     story.append(Spacer(1, 6))
 
@@ -257,21 +299,28 @@ def generate_resume():
     story.append(Paragraph("TECHNICAL SKILLS", s["section_header"]))
     story.append(section_divider())
     story.append(skill_row(s["skill_line"],
+        "Experimentation",
+        "A/B Testing, Experiment Design, Power Analysis, Sample Size Estimation, "
+        "Non-Inferiority Testing, Hypothesis Testing, Guardrail Metrics"))
+    story.append(skill_row(s["skill_line"],
+        "Causal Inference &amp; Stats",
+        "Staggered DiD, Propensity Score Matching, Pre-Post Analysis, Regression, "
+        "Statistical Modeling, Forecasting, Bayesian Methods, Time Series Analysis"))
+    story.append(skill_row(s["skill_line"],
         "Languages", "SQL (Expert), Python (Expert), R"))
+    story.append(skill_row(s["skill_line"],
+        "ML &amp; Modeling",
+        "Machine Learning, Deep Learning, Clustering, Uplift Modeling, CNN"))
     story.append(skill_row(s["skill_line"],
         "Visualization &amp; BI", "Looker, Tableau, Data Studio"))
     story.append(skill_row(s["skill_line"],
-        "Analytics &amp; Modeling",
-        "A/B Testing, Statistical Modeling, Forecasting, Causal Inference, Regression, "
-        "Clustering, Machine Learning, Deep Learning, EDA, Text Analysis"))
-    story.append(skill_row(s["skill_line"],
         "Data Engineering",
-        "Apache Airflow, dbt, ETL Pipeline Design, Data Pipeline Architecture, Semantic Models"))
+        "Apache Airflow, dbt, ETL Pipeline Design, AWS (SageMaker, Athena), GCP, BigQuery"))
     story.append(skill_row(s["skill_line"],
-        "Frameworks &amp; Strategy",
-        "KPI Frameworks, Measurement Strategy, Analytics Architecture, OKR Development"))
+        "Frameworks",
+        "KPI Frameworks, Metrics Development, Measurement Strategy, Analytics Architecture, OKR Development"))
     story.append(skill_row(s["skill_line"],
-        "Tools &amp; Platforms", "Adobe Analytics, Adobe Target, Git, Jupyter, BigQuery"))
+        "Tools", "Adobe Analytics, Adobe Target, Git, Jupyter"))
     story.append(Spacer(1, 6))
 
     # ── EDUCATION ──
@@ -289,7 +338,7 @@ def generate_resume():
     story.append(Paragraph("PATENT", s["section_header"]))
     story.append(section_divider())
     story.append(Paragraph(
-        "Image Quality Analysis for Artifact Detection in Pathology Slide Images",
+        "Image Quality Analysis for Artifact Detection in Pathology Slide Images (Approved 2025)",
         s["patent_title"]
     ))
     story.append(Paragraph(
